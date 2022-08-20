@@ -148,7 +148,13 @@ address {
   font-style: normal;
 }
 
-
+img { 
+	width: 100%;
+}
+ 
+figure {
+        margin: 0;
+}
 
 /* -------------------- Header - Footer Styles -------------------- */
 
@@ -173,6 +179,13 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .header-divider {
@@ -207,6 +220,11 @@ header nav ul li {
 
 /* Hero Area */
 .hero-area {
+  background: url('../img/unplugged-retreat-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat #333;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -218,6 +236,7 @@ header nav ul li {
   font-weight: 500;
   line-height: 1.2;
 }
+
 
 /* Aside */
 aside {
@@ -259,6 +278,11 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat #333;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -329,6 +353,9 @@ footer .social-icons p {
   background-color: #2a423a;
 }
 
+.reviews figure{
+  width: 40%;
+}
 .reviews h2 {
   margin-bottom: 40px;
   line-height: 1;
@@ -339,10 +366,18 @@ footer .social-icons p {
   margin: 20px 0;
 }
 
+
+
 /* ==========================================================================
    About Page
    ========================================================================== */
-
+   header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 .mission {
   display: flex;
   justify-content: center;
@@ -350,7 +385,13 @@ footer .social-icons p {
   flex-flow: row wrap;
   background-color: #527158;
 }
-
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #527158;
+}
 .contact-section {
   display: flex;
   justify-content: center;
@@ -537,6 +578,10 @@ header nav ul {
 }
 
 /* Hero Area */
+
+.hero-area {
+  min-height: 600px;
+}
 .hero-area h1 {
   font-size: 3em;
   line-height: 1;
@@ -583,7 +628,7 @@ aside .content-wrapper .form {
 .reviews h2 {
   width: 85%;
 }
-
+.reviews article figure,
 .reviews article div {
   width: 49%;
 }
@@ -700,7 +745,7 @@ footer .copyright {
 
   /* Hero */
   .hero-area h1 {
-    width: 60%;
+    width: 80%;
     font-size: 3.75em;
   }
 
