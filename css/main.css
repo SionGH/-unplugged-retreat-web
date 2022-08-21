@@ -778,7 +778,7 @@ footer .copyright {
 
   /* Features */
   .features h2 {
-    width: 85%;
+    width: 90%;
   }
 
   .features article {
@@ -791,7 +791,7 @@ footer .copyright {
   }
 
   .reviews article div {
-    width: 40%
+    width: 42%
   }
 
   footer h4 {
@@ -811,7 +811,7 @@ About Page
     font-size: 1.875em;
   }
   .map figure {
-    padding-bottom: 38%;
+    padding-bottom: 37.5%;
   }
 
   /* ==========================================================================
