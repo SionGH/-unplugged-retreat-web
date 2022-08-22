@@ -153,7 +153,7 @@ img {
 }
  
 figure {
-        margin: 0;
+  margin: 0;
 }
 
 /* -------------------- Header - Footer Styles -------------------- */
@@ -310,7 +310,7 @@ input[type=button] {
 }
 .features i {
 	font-size: 3.75em;
-        margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 /*Footer*/
 footer {
@@ -327,7 +327,7 @@ footer .content-wrapper {
   margin: 50px 0;
 }
 
-.contact-section {
+footer .contact {
   margin-bottom: 50px;
 }
 
@@ -338,12 +338,19 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
 
-.copyright {
+footer .copyright {
   margin: 20px 0;
 }
 
@@ -374,13 +381,7 @@ footer .social-icons p {
 /* ==========================================================================
    About Page
    ========================================================================== */
-   header figure {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-}
+   
 .mission {
   display: flex;
   justify-content: center;
@@ -628,6 +629,9 @@ aside .content-wrapper .form {
 .features .features-item-description {
   width: 60%;
 }
+.features i {
+  margin-bottom: 30px;
+}
 
 /* Reviews */
 .reviews article {
@@ -654,7 +658,7 @@ footer .content-wrapper {
   margin: 100px 0;
 }
 
-.footer-content {
+footer .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -672,6 +676,10 @@ footer h4 {
 
 footer p {
   line-height: 1.285;
+}
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
 }
 
 footer .copyright {
@@ -791,7 +799,7 @@ footer .copyright {
   }
 
   .reviews article div {
-    width: 42%
+    width: 42%;
   }
 
   footer h4 {
