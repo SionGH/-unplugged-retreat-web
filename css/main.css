@@ -97,10 +97,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   .content-wrapper {
-    width: 90%;
-    margin: 50px 0;
-  }
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
 /* General Styles */
 
 html {
@@ -148,10 +149,10 @@ address {
   font-style: normal;
 }
 
-img { 
-	width: 100%;
+img {
+  width: 100%;
 }
- 
+
 figure {
   margin: 0;
 }
@@ -172,7 +173,7 @@ footer {
 header {
   padding: 15px 0;
 }
-  
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
@@ -180,12 +181,13 @@ header .content-wrapper {
   flex-flow: row wrap;
   margin: 0;
 }
+
 header figure {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -208,7 +210,7 @@ header nav {
 
 header nav ul {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -308,10 +310,12 @@ input[type=button] {
   width: 60%;
   margin: 40px 0;
 }
+
 .features i {
-	font-size: 3.75em;
+  font-size: 3.75em;
   margin-bottom: 40px;
 }
+
 /*Footer*/
 footer {
   text-align: center;
@@ -346,6 +350,7 @@ footer .social-icons p {
   justify-content: center;
   align-items: center;
 }
+
 footer .social-icons p i {
   font-size: 1.3125em;
 }
@@ -363,9 +368,10 @@ footer .copyright {
   background-color: #2a423a;
 }
 
-.reviews figure{
+.reviews figure {
   width: 40%;
 }
+
 .reviews h2 {
   margin-bottom: 40px;
   line-height: 1;
@@ -381,7 +387,7 @@ footer .copyright {
 /* ==========================================================================
    About Page
    ========================================================================== */
-   
+
 .mission {
   display: flex;
   justify-content: center;
@@ -389,20 +395,23 @@ footer .copyright {
   flex-flow: row wrap;
   background-color: #527158;
 }
+
 .map figure {
   width: 100%;
-  height: 0; 
-  padding-bottom: 125%; 
+  height: 0;
+  padding-bottom: 125%;
   overflow: hidden;
   position: relative;
 }
+
 .map iframe {
   width: 100%;
   height: 100%;
-  position: absolute; 
-  top: 0; 
-  left: 0; 
+  position: absolute;
+  top: 0;
+  left: 0;
 }
+
 .contact-section {
   display: flex;
   justify-content: center;
@@ -593,6 +602,7 @@ header nav ul {
 .hero-area {
   min-height: 600px;
 }
+
 .hero-area h1 {
   font-size: 3em;
   line-height: 1;
@@ -629,6 +639,7 @@ aside .content-wrapper .form {
 .features .features-item-description {
   width: 60%;
 }
+
 .features i {
   margin-bottom: 30px;
 }
@@ -642,6 +653,7 @@ aside .content-wrapper .form {
 .reviews h2 {
   width: 85%;
 }
+
 .reviews article figure,
 .reviews article div {
   width: 49%;
@@ -677,6 +689,7 @@ footer h4 {
 footer p {
   line-height: 1.285;
 }
+
 footer .social-icons {
   width: 12.5em;
   justify-content: space-between;
@@ -700,6 +713,7 @@ footer .copyright {
 .mission-content p {
   width: 45%;
 }
+
 .map figure {
   padding-bottom: 45.5%;
 }
@@ -818,6 +832,7 @@ About Page
   .contact-content h4 {
     font-size: 1.875em;
   }
+
   .map figure {
     padding-bottom: 37.5%;
   }
