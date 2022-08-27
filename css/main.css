@@ -220,6 +220,7 @@ header nav ul li {
   font-size: 1.125em;
 }
 /*Footer*/
+
 footer {
   text-align: center;
   flex-direction: column;
@@ -269,7 +270,6 @@ footer .copyright {
   background: url('../img/unplugged-retreat-hero.jpg');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat #333;
   min-height: 500px;
   display: flex;
   justify-content: center;
@@ -330,8 +330,6 @@ input[type=button] {
   background: url('../img/unplugged-retreat-features.jpg');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat #333;
-  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
