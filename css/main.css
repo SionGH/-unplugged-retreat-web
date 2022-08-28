@@ -360,6 +360,16 @@ input[type=button] {
   font-size: 3.75em;
   margin-bottom: 40px;
 }
+footer .footer-content{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow: row wrap;
+  flex-direction: column;
+}
+footer .contact {
+  margin-bottom: 50px;
+}
 
 
 
